@@ -28,7 +28,7 @@ canvas {
 .header i{
 	color:#fc427f; 
 	cursor: pointer;
-	padding-right: 30px
+	/*padding-right: 30px*/
 	
 }
 .header i:hover{
@@ -1292,6 +1292,17 @@ outline: none;
     color: white;
     padding: 84px 44PX;
 }
+.header {
+    padding: 30px 0;
+    background-color: #311432;
+    box-shadow: 3px 3px 3px #ccc;
+    z-index: 99;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 42px;
+    width: 100%;
+}
 .flex-1 {
     display: grid;
     grid-template-columns: 1fr;
@@ -1520,8 +1531,8 @@ outline: none;
 .header ul li a {
     text-transform: uppercase;
     text-decoration: none;
-    padding: 0 5px;
-    color: black;
+   
+    color: white;
 }
 }
 
@@ -1551,6 +1562,7 @@ outline: none;
 	box-shadow: 3px 3px 3px #ccc;
 	z-index: 99;
 	position: fixed;
+	height: 42px;
 	top: 0;
 	left: 0;
 	width: 100%;
@@ -1580,7 +1592,7 @@ outline: none;
 	color: #ffffff;
 	font-size: 18px;
 	text-decoration: none;
-	padding: 10px 0;
+	padding: 10px 3px;
 	position: relative;
 	display: block;
 }
@@ -1797,6 +1809,18 @@ outline: none;
 		display: block;
 	}
 }
+@media only screen and  (max-width: 885px){
+	.nav-list li a {
+    color: #ffffff;
+    font-size: 14px;
+    text-decoration: none;
+    padding: 10px 2px;
+    position: relative;
+    display: block;
+}
+
+}
+
 
 
 @media only screen and  (max-width: 768px){
@@ -1944,7 +1968,7 @@ outline: none;
     height: 8px;
     width: 100px;
     left: 50%;
-    top: 93px;
+    top: 106px;
     bottom: 0;
     margin-left: -50px;
     background-color: #111111;
